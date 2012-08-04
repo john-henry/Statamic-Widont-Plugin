@@ -14,8 +14,9 @@ Wrap any text variable in the widont tag pair
     
     <h1>{{ widont }}{{ title }}{{ /widont }}</h1>
 
+
+
 ---
 
 *Props to Shaun Inman for the original WordPress Widon't plugin*
-
 *http://www.shauninman.com/archive/2007/01/03/widont_2_1_wordpress_plugin/*
