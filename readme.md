@@ -19,4 +19,4 @@ Wrap any text variable in the widont tag pair
 ---
 
 *Props to Shaun Inman for the original WordPress Widon't plugin*  
-*http://www.shauninman.com/archive/2007/01/03/widont_2_1_wordpress_plugin/*
+*http://shauninman.com/archive/2006/08/22/widont_wordpress_plugin*
