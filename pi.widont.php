@@ -12,7 +12,7 @@ class Plugin_widont extends Plugin {
 
 
     Statamic_View::$_dataStore = array_merge(Statamic_View::$_dataStore, $this->attributes);
-    $this->content = $this->parser->parse($this->content, Statamic_View::$_dataStore, 'Statamic_View::callback');
+    $this->content = Parse::template($this->content, Statamic_View::$_dataStore, 'Statamic_View::callback');
     
     $this->content = preg_replace('/\s+(\S+)$/', '&#160;$1', rtrim($this->content));
    
